@@ -4,7 +4,7 @@ import { HeroLinks } from "./HeroLinks";
 function Hero() {
   const contactHandler = () => {};
   return (
-    <figure className="hero">
+    <section className="hero">
       <div className="hero-img">
         <i className="ri-user-4-line ri-3x"></i>
       </div>
@@ -28,7 +28,7 @@ function Hero() {
           Contact
         </button>
       </div>
-    </figure>
+    </section>
   );
 }
 
