@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;400;500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,13 +9,31 @@
 body {
   margin: 0;
   font-family: "Noto Sans Mono", serif !important;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   color: white;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  width: 100%;
+  border: 0;
+  font-family: "Noto Sans Mono", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
