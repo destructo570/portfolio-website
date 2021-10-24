@@ -1,0 +1,36 @@
+.about {
+  margin-top: 4rem;
+}
+
+.about__title {
+  margin-bottom: 1rem;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.about-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 0;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .about__content {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .about-img {
+    min-width: 40%;
+    align-self: center;
+  }
+}
