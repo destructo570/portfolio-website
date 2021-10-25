@@ -1,5 +1,6 @@
 import "./About.css";
-import { AboutSkills } from "./AboutSkills";
+import { SkillList } from "./SkillList";
+import MySkills from "./MySkills";
 
 function About() {
   return (
@@ -16,17 +17,7 @@ function About() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           </p>
           <br />
-          <p>Some of the technologies I have worked with</p>
-          <figure className="about-skills">
-            {AboutSkills.map((item, index) => {
-              return (
-                <div key={index} className={item.cName}>
-                  <i class="ri-arrow-right-s-fill">&nbsp;&nbsp;</i>
-                  <p>{item.title}</p>
-                </div>
-              );
-            })}
-          </figure>
+          <MySkills skills={SkillList} />
         </div>
       </div>
     </section>

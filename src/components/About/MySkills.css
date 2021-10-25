@@ -1,0 +1,10 @@
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 0;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+}

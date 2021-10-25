@@ -1,4 +1,4 @@
-export const AboutSkills = [
+export const SkillList = [
   {
     title: "JavaScript",
     cName: "skill",
