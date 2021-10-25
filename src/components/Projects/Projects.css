@@ -5,9 +5,6 @@
 .project__item {
   margin: 4rem 0;
 }
-.project-tech {
-  display: flex;
-}
 
 .project-title {
   margin: 1rem 0;
@@ -15,22 +12,6 @@
 
 .project-description {
   margin: 1rem 0;
-}
-
-.tech-item + .tech-item {
-  margin-left: 1rem;
-}
-
-.project-links {
-  display: flex;
-}
-
-.project-links-item {
-  padding: 1rem 0;
-}
-
-.project-links-item + .project-links-item {
-  margin-left: 1rem;
 }
 
 /* Media Queries */

@@ -1,5 +1,7 @@
 import "./Projects.css";
 import { ProjectList } from "./ProjectList";
+import ProjectTechStack from "./ProjectTechStack";
+import ProjectLinks from "./ProjectLinks";
 function Projects() {
   return (
     <section className="projects">
@@ -14,24 +16,8 @@ function Projects() {
               <div className="project__content">
                 <h2 className="project-title">{project.title}</h2>
                 <p className="project-description">{project.description}</p>
-                <div className="project-tech">
-                  {project.techStack.map((item, index) => {
-                    return (
-                      <p key={index} className="tech-item">
-                        {item}
-                      </p>
-                    );
-                  })}
-                </div>
-                <div className="project-links">
-                  {project.projectLinks.map((item, index) => {
-                    return (
-                      <div key={index} className="project-links-item">
-                        <i className={item.iconClassName}></i>
-                      </div>
-                    );
-                  })}
-                </div>
+                <ProjectTechStack techStack={project.techStack} />
+                <ProjectLinks links={project.projectLinks} />
               </div>
             </div>
           );

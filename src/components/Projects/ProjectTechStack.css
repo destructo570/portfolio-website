@@ -1,0 +1,7 @@
+.project-tech {
+  display: flex;
+}
+
+.tech-item + .tech-item {
+  margin-left: 1rem;
+}
