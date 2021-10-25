@@ -1,0 +1,14 @@
+/* Social links in hero section */
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a + a {
+  margin-left: 1rem;
+}
+
+.hero-socials {
+  padding: 1rem 0;
+}

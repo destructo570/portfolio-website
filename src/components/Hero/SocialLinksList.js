@@ -1,4 +1,4 @@
-export const HeroLinks = [
+export const SocialLinksList = [
   { title: "github", url: "#", cName: "ri-github-line ri-xl" },
   { title: "twitter", url: "#", cName: "ri-twitter-line ri-xl" },
   { title: "playStore", url: "#", cName: "ri-google-play-line ri-xl" },

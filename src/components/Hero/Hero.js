@@ -1,5 +1,6 @@
 import "./Hero.css";
-import { HeroLinks } from "./HeroLinks";
+import SocialLinks from "./SocialLinks";
+import { SocialLinksList } from "./SocialLinksList";
 
 function Hero() {
   const contactHandler = () => {};
@@ -15,15 +16,7 @@ function Hero() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         </p>
-        <div className="hero-links">
-          {HeroLinks.map((item, index) => {
-            return (
-              <a key={index} href={item.url}>
-                <i className={item.cName}></i>
-              </a>
-            );
-          })}
-        </div>
+        <SocialLinks links={SocialLinksList} />
         <button className="hero-cta btn" onClick={contactHandler}>
           Contact
         </button>

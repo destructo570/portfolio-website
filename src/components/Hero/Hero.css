@@ -16,21 +16,6 @@
   margin: 1rem 0;
 }
 
-/* Social links in hero section */
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-a + a {
-  margin-left: 1rem;
-}
-
-.hero-links {
-  padding: 1rem 0;
-}
-
 /* Media Queries */
 
 @media (min-width: 800px) {
