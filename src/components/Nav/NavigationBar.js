@@ -1,6 +1,7 @@
 import "./NavigationBar.css";
-import { MenuItems } from "./MenuItems";
+import { NavLinks } from "./NavLinks";
 import { useState } from "react";
+import NavIcon from "./NavIcon";
 
 function NavigationBar() {
   const [clicked, setClicked] = useState(false);
@@ -14,11 +15,11 @@ function NavigationBar() {
   return (
     <nav className="nav">
       <div className="nav__logo">
-        <i class="ri-checkbox-blank-circle-line logo"></i>
+        <i className="ri-checkbox-blank-circle-line logo"></i>
       </div>
       <div className={clicked ? "nav__col" : "nav__col hide"}>
         <ul>
-          {MenuItems.map((item, index) => {
+          {NavLinks.map((item, index) => {
             return (
               <li key={index}>
                 <a className={item.cName} href={item.url}>
@@ -29,15 +30,7 @@ function NavigationBar() {
           })}
         </ul>
       </div>
-      <div className="nav__menu" onClick={menuClickHandler}>
-        <i
-          className={
-            clicked
-              ? "ri-close-line ri-xl menu__icon"
-              : "ri-menu-line ri-xl menu__icon"
-          }
-        ></i>
-      </div>
+      <NavIcon onMenuClicked={menuClickHandler} />
     </nav>
   );
 }

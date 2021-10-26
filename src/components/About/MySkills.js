@@ -8,7 +8,7 @@ function MySkills(props) {
         {props.skills.map((item, index) => {
           return (
             <div key={index} className={item.cName}>
-              <i class="ri-arrow-right-s-fill">&nbsp;&nbsp;</i>
+              <i className="ri-arrow-right-s-fill">&nbsp;&nbsp;</i>
               <p>{item.title}</p>
             </div>
           );
