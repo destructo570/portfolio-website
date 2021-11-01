@@ -4,7 +4,7 @@ import ProjectItems from "./ProjectItems";
 function Projects() {
   return (
     <section className="projects">
-      <h1>Projects</h1>
+      <h1 className="semi--bold">Projects</h1>
       <ProjectItems projects={ProjectList} />
     </section>
   );

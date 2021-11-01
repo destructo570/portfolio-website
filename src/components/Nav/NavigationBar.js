@@ -30,7 +30,7 @@ function NavigationBar() {
           })}
         </ul>
       </div>
-      <NavIcon onMenuClicked={menuClickHandler} />
+      <NavIcon className="nav__menu" onMenuClicked={menuClickHandler} />
     </nav>
   );
 }

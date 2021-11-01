@@ -10,7 +10,7 @@ function NavIcon(props) {
     props.onMenuClicked();
   };
   return (
-    <div className="nav__menu" onClick={menuClickHandler}>
+    <div className="nav__menu-ico" onClick={menuClickHandler}>
       <i
         className={
           menuCLicked

@@ -1,15 +1,27 @@
 .hero {
-  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.hero-img {
+.hero__img {
   display: flex;
   justify-content: center;
   padding: 2rem 0;
 }
 
+.hero-intro-title {
+  font-size: 1rem;
+}
+
+.hero-title-name {
+  font-size: clamp(3rem, 3vw, 3.5rem);
+  font-weight: 600;
+}
+
 .hero-title {
-  margin: 1rem 0;
+  font-size: clamp(2rem, 3vw, 3.6rem);
+  font-weight: 600;
 }
 
 .hero-body {
@@ -24,9 +36,13 @@
     flex-direction: row-reverse;
   }
 
-  .hero-img {
+  .hero__img {
     min-width: 40%;
     align-self: center;
+  }
+
+  .hero-body {
+    max-width: 60%;
   }
 
   .hero__content {

@@ -12,7 +12,7 @@ export const ProjectList = [
         url: "",
       },
     ],
-    cName: "project__item",
+    cName: "project-item",
   },
   {
     title: "Erza Icon Pack",
@@ -27,7 +27,7 @@ export const ProjectList = [
         url: "",
       },
     ],
-    cName: "project__item",
+    cName: "project-item",
   },
   {
     title: "Zeref Icon Pack",
@@ -42,6 +42,6 @@ export const ProjectList = [
         url: "",
       },
     ],
-    cName: "project__item",
+    cName: "project-item",
   },
 ];

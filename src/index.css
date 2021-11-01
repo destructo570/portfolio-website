@@ -41,3 +41,9 @@ code {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+/* Modifiers */
+
+.semi--bold {
+  font-weight: 600;
+}

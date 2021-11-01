@@ -36,16 +36,6 @@ li + li {
   color: white;
 }
 
-.nav__menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.menu__icon {
-  fill: white;
-}
-
 /* Utility Classes */
 
 .hide {
@@ -55,10 +45,6 @@ li + li {
 /* Media Queries */
 
 @media (min-width: 800px) {
-  .nav__menu {
-    display: none;
-  }
-
   .nav {
     display: flex;
     justify-content: space-between;

@@ -7,10 +7,10 @@ function ProjectItems(props) {
       {props.projects.map((project, index) => {
         return (
           <div key={index} className={project.cName}>
-            <div className="project__img">
+            <div className="project-img">
               <img src={project.imgUrl} alt=""></img>
             </div>
-            <div className="project__content">
+            <div className="project-content">
               <h2 className="project-title">{project.title}</h2>
               <p className="project-description">{project.description}</p>
               <ProjectTechStack techStack={project.techStack} />
