@@ -38,6 +38,10 @@ li + li {
   color: white;
 }
 
+.nav-links:hover {
+  color: var(--accent-primary);
+}
+
 /* Utility Classes */
 
 .hide {

@@ -1,9 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;400;500&display=swap");
 
+:root {
+  --text-primary: white;
+  --text-secondary: rgb(206, 206, 206);
+  --accent-primary: #2fdd92;
+  --accent-primary-light: #31b37a;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* Change text selection colors */
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--text-primary);
+  background: var(--accent-primary-light);
+}
+
+::selection {
+  color: var(--text-primary);
+  background: var(--accent-primary-light);
 }
 
 body {
@@ -13,13 +32,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-  color: white;
+  color: var(--text-secondary, white);
 }
 
 h1,
 h2,
 h3 {
   font-weight: 400;
+  color: var(--text-primary, white);
 }
 
 img {
@@ -46,4 +66,8 @@ code {
 
 .semi--bold {
   font-weight: 600;
+}
+
+.color-transition {
+  transition: color 0.5s;
 }

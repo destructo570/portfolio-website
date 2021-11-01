@@ -4,6 +4,12 @@
 
 .project-links-item {
   padding: 1rem 0;
+  color: white;
+  text-decoration: none;
+}
+
+.project-links-item:hover {
+  color: var(--accent-primary);
 }
 
 .project-links-item + .project-links-item {

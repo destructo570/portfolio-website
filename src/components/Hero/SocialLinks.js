@@ -5,7 +5,11 @@ function SocialLinks(props) {
     <div className="hero-socials">
       {props.links.map((item, index) => {
         return (
-          <a key={index} href={item.url} className="social-link">
+          <a
+            key={index}
+            href={item.url}
+            className="social-link color-transition"
+          >
             <i className={item.cName}></i>
           </a>
         );

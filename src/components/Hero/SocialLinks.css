@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+.social-link:hover {
+  color: var(--accent-primary);
+}
+
 .social-link + .social-link {
   margin-left: 1rem;
 }
