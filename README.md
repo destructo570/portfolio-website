@@ -1,7 +1,7 @@
 ## Portfolio Website
 
 My portfolio website showcasing some of the projects I have worked on and information about me.\
-I am going to work on it and deploy it but until then you can see a live preview by going to the link.
+It's still WIP and I am going to continue working on it, but if you want to see a live preview you can click the link below.
 
 #### [Live Preview](https://portfolio-website-pi-seven.vercel.app/)
 
