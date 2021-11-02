@@ -13,7 +13,7 @@ function Hero() {
       </div> */}
       <div className="hero__content">
         <h1 className="hero-intro-title">Hi, my name is</h1>
-        <h1 className="hero-title-name">John Doe.</h1>
+        <h1 className="hero-title-name">Vishal Kashi.</h1>
         <h1 className="hero-title">I build things for the web and mobile.</h1>
 
         <p className="hero-body">
