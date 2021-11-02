@@ -3,7 +3,9 @@ import SocialLinks from "./SocialLinks";
 import { SocialLinksList } from "./SocialLinksList";
 
 function Hero() {
-  const contactHandler = () => {};
+  const contactHandler = (event) => {
+    window.open("mailto:webmaster@example.com", "_blank", "resizable=yes");
+  };
   return (
     <section className="hero">
       {/* <div className="hero__img">

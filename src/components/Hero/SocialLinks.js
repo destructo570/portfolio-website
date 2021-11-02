@@ -8,6 +8,8 @@ function SocialLinks(props) {
           <a
             key={index}
             href={item.url}
+            target="_blank"
+            rel="noreferrer"
             className="social-link color-transition"
           >
             <i className={item.cName}></i>
