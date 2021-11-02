@@ -54,7 +54,7 @@ export const ProjectList = [
     description:
       "Erza is a material design inspired icon pack for giving your android phone a fresh and unique look.",
     imgUrl: "https://picsum.photos/400/200",
-    techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
+    techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
       {
         iconClassName: "ri-google-play-line ri-xl",
@@ -68,7 +68,7 @@ export const ProjectList = [
     description:
       "Zeref is a vibrant and minimalist icon pack for those who are tired of the same old material design icon packs.",
     imgUrl: "https://picsum.photos/400/200",
-    techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
+    techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
       {
         iconClassName: "ri-google-play-line ri-xl",
