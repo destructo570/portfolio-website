@@ -15,6 +15,7 @@
 @media (min-width: 800px) {
   .about__content {
     display: flex;
+    flex-direction: row-reverse;
     margin-top: 2rem;
   }
 

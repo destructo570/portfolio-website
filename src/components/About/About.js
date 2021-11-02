@@ -10,6 +10,9 @@ function About() {
         <div className="sec-divider"></div>
       </div>
       <div className="about__content">
+        <div className="content-img">
+          <i className="ri-user-4-line ri-3x bullet-icon"></i>
+        </div>
         <div>
           <p>
             Hey there!, my name is Vishal and I like to build cool stuff for web
@@ -29,9 +32,6 @@ function About() {
           </p>
           <br />
           <MySkills skills={SkillList} />
-        </div>
-        <div className="content-img">
-          <i className="ri-user-4-line ri-3x bullet-icon"></i>
         </div>
       </div>
     </section>
