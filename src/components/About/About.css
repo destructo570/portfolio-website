@@ -9,6 +9,7 @@
 .content-img {
   display: flex;
   justify-content: center;
+  padding: 3rem 0;
 }
 
 .content-img img {
@@ -36,5 +37,6 @@
   .content-img {
     min-width: 40%;
     align-self: flex-start;
+    padding: 0;
   }
 }
