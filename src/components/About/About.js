@@ -28,7 +28,7 @@ function About() {
             <br />
             Currently my main focus is on learning frontend web development.
             Using React, HTML, CSS and Javascript to create high quality, user
-            centric and more accessible products on the web.
+            centered and more accessible products on the web.
           </p>
           <br />
           <MySkills skills={SkillList} />
