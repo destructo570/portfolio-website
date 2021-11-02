@@ -14,12 +14,12 @@ function Hero() {
       <div className="hero__content">
         <h1 className="hero-intro-title">Hi, my name is</h1>
         <h1 className="hero-title-name">John Doe.</h1>
-        <h1 className="hero-title">I build things for the web.</h1>
+        <h1 className="hero-title">I build things for the web and mobile.</h1>
 
         <p className="hero-body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          I am a software engineer specializing in web and mobile apps with a
+          focus on user-centered design and accessibility. Currently learning
+          web development and looking for new opportunities.
         </p>
         <SocialLinks links={SocialLinksList} />
         <button className="hero-cta btn" onClick={contactHandler}>
