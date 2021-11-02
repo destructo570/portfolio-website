@@ -3,3 +3,10 @@
   margin: 0 auto;
   padding: 0 2rem;
 }
+
+.sec-divider {
+  width: 30px;
+  height: 5px;
+  background-color: var(--accent-primary);
+  margin-top: -0.8rem;
+}

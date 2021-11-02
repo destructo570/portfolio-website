@@ -3,11 +3,15 @@
 }
 
 .project-title {
-  margin: 1rem 0;
+  margin-top: 0.8rem;
+}
+
+.project-img img {
+  border-radius: 8px;
 }
 
 .project-description {
-  margin: 1rem 0;
+  margin-top: 0.25rem;
 }
 
 /* Media Queries */

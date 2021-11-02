@@ -5,7 +5,13 @@ function ProjectLinks(props) {
     <div className="project-links">
       {props.links.map((item, index) => {
         return (
-          <a key={index} href={item.url} className="project-links-item">
+          <a
+            key={index}
+            href={item.url}
+            target="_blank"
+            rel="noreferrer"
+            className="project-links-item"
+          >
             <i className={item.iconClassName}></i>
           </a>
         );

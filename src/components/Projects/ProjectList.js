@@ -2,14 +2,49 @@ export const ProjectList = [
   {
     title: "Sushi Android App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+      "Sushi is an unofficial myanimelist client for android. Enjoy your favourite anime website on your android devices.",
     imgUrl: "https://picsum.photos/400/200",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
-      { iconClassName: "ri-github-line ri-xl", url: "" },
+      {
+        iconClassName: "ri-github-line ri-xl",
+        url: "https://github.com/destructo570/Sushi-Unofficial-MAL-Client",
+      },
       {
         iconClassName: "ri-google-play-line ri-xl",
-        url: "",
+        url: "https://play.google.com/store/apps/details?id=com.destructo.sushi_mal&hl=en_IN&gl=US",
+      },
+    ],
+    cName: "project-item",
+  },
+  {
+    title: "Mars App",
+    description:
+      "A simple app that lets you browse latest images taken by various Mars rovers using NASA's API",
+    imgUrl: "https://picsum.photos/400/200",
+    techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
+    projectLinks: [
+      {
+        iconClassName: "ri-github-line ri-xl",
+        url: "https://github.com/destructo570/mars-app",
+      },
+      {
+        iconClassName: "ri-google-play-line ri-xl",
+        url: "https://play.google.com/store/apps/details?id=com.erza.vishal",
+      },
+    ],
+    cName: "project-item",
+  },
+  {
+    title: "Covid Tracker",
+    description:
+      "A minimal designed app to track current statistics of COVID-19 across the world and detailed state wise statistics of India. App also offers some useful information regarding COVID-19, along with helpline numbers.",
+    imgUrl: "https://picsum.photos/400/200",
+    techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
+    projectLinks: [
+      {
+        iconClassName: "ri-github-line ri-xl",
+        url: "https://github.com/destructo570/CovidTracker-kotlin",
       },
     ],
     cName: "project-item",
@@ -17,14 +52,13 @@ export const ProjectList = [
   {
     title: "Erza Icon Pack",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+      "Erza is a material design inspired icon pack for giving your android phone a fresh and unique look.",
     imgUrl: "https://picsum.photos/400/200",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
-      { iconClassName: "ri-github-line ri-xl  ", url: "" },
       {
         iconClassName: "ri-google-play-line ri-xl",
-        url: "",
+        url: "https://play.google.com/store/apps/details?id=com.erza.vishal",
       },
     ],
     cName: "project-item",
@@ -32,14 +66,13 @@ export const ProjectList = [
   {
     title: "Zeref Icon Pack",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+      "Zeref is a vibrant and minimalist icon pack for those who are tired of the same old material design icon packs.",
     imgUrl: "https://picsum.photos/400/200",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
-      { iconClassName: "ri-github-line ri-xl", url: "" },
       {
         iconClassName: "ri-google-play-line ri-xl",
-        url: "",
+        url: "https://play.google.com/store/apps/details?id=com.zeref.vishal&hl=en_IN&gl=US",
       },
     ],
     cName: "project-item",

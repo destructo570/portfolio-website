@@ -4,7 +4,10 @@ import ProjectItems from "./ProjectItems";
 function Projects() {
   return (
     <section className="projects">
-      <h1 className="semi--bold">Projects</h1>
+      <div>
+        <h1 className="projects__title semi--bold">Projects</h1>
+        <div className="sec-divider"></div>
+      </div>
       <ProjectItems projects={ProjectList} />
     </section>
   );
