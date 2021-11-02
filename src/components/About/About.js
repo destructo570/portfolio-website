@@ -4,7 +4,7 @@ import MySkills from "./MySkills";
 
 function About() {
   return (
-    <section className="about">
+    <section id="about">
       <div>
         <h1 className="about__title semi--bold">About Me</h1>
         <div className="sec-divider"></div>

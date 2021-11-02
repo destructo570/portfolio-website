@@ -3,7 +3,7 @@ import { ProjectList } from "./ProjectList";
 import ProjectItems from "./ProjectItems";
 function Projects() {
   return (
-    <section className="projects">
+    <section id="projects">
       <div>
         <h1 className="projects__title semi--bold">Projects</h1>
         <div className="sec-divider"></div>

@@ -7,7 +7,7 @@ function Hero() {
     window.open("mailto:dev.vishalkashi@gmail.com", "_blank", "resizable=yes");
   };
   return (
-    <section className="hero">
+    <section id="hero">
       {/* <div className="hero__img">
         <i className="ri-user-4-line ri-3x"></i>
       </div> */}

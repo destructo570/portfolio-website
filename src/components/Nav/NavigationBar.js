@@ -12,6 +12,10 @@ function NavigationBar() {
     });
   };
 
+  const navLinkHandler = () => {
+    document.querySelector(".nav__menu-ico").click();
+  };
+
   return (
     <nav className="nav">
       <div className="nav__logo">
@@ -22,7 +26,11 @@ function NavigationBar() {
           {NavLinks.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                <a
+                  className={item.cName}
+                  href={item.url}
+                  onClick={navLinkHandler}
+                >
                   {item.title}
                 </a>
               </li>

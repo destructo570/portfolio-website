@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+.nav__menu-ico:hover {
+  cursor: pointer;
+}
+
 /* Media Queries */
 
 @media (min-width: 800px) {
