@@ -11,9 +11,9 @@ function About() {
       </div>
       <div className="about__content">
         <div className="content-img">
-          <i className="ri-user-4-line ri-3x bullet-icon"></i>
+          <img src="https://picsum.photos/300/300" alt=""></img>
         </div>
-        <div>
+        <div className="content-body">
           <p>
             Hey there!, my name is Vishal and I like to build cool stuff for web
             and mobile with a focus on design and user experience. At first I

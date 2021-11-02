@@ -18,8 +18,8 @@ function Hero() {
 
         <p className="hero-body">
           I am a software engineer specializing in web and mobile apps with a
-          focus on user-centered design and accessibility. Currently learning
-          web development and looking for new opportunities.
+          focus on user-centered design and accessibility. <br />
+          Currently learning web development and looking for new opportunities.
         </p>
         <SocialLinks links={SocialLinksList} />
         <button className="hero-cta btn" onClick={contactHandler}>
