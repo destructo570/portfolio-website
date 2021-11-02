@@ -4,7 +4,7 @@ import { SocialLinksList } from "./SocialLinksList";
 
 function Hero() {
   const contactHandler = (event) => {
-    window.open("mailto:webmaster@example.com", "_blank", "resizable=yes");
+    window.open("mailto:dev.vishalkashi@gmail.com", "_blank", "resizable=yes");
   };
   return (
     <section className="hero">
