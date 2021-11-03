@@ -53,7 +53,7 @@ export const ProjectList = [
     title: "Erza Icon Pack",
     description:
       "Erza is a material design inspired icon pack for giving your android phone a fresh and unique look.",
-    imgUrl: "https://imgur.com/OUBA7u6.png",
+    imgUrl: "https://imgur.com/yX5AMdq.png",
     techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
       {
@@ -67,7 +67,7 @@ export const ProjectList = [
     title: "Zeref Icon Pack",
     description:
       "Zeref is a vibrant and minimalist icon pack for those who are tired of the same old material design icon packs.",
-    imgUrl: "https://imgur.com/yX5AMdq.png",
+    imgUrl: "https://imgur.com/5R68RJk.png",
     techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
       {
