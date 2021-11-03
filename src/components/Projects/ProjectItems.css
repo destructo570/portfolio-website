@@ -1,5 +1,5 @@
 .project-item {
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 
 .project-title {
@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     filter: grayscale(1);
+    margin: 6rem 0;
   }
 
   .project-item:hover {
