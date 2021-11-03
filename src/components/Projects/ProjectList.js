@@ -67,7 +67,7 @@ export const ProjectList = [
     title: "Zeref Icon Pack",
     description:
       "Zeref is a vibrant and minimalist icon pack for those who are tired of the same old material design icon packs.",
-    imgUrl: "https://imgur.com/0UhZOlV.png",
+    imgUrl: "https://imgur.com/1e0jFzn.png",
     techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
       {
