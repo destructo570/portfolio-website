@@ -3,7 +3,7 @@ export const ProjectList = [
     title: "Sushi Android App",
     description:
       "Sushi is an unofficial myanimelist client for android. Enjoy your favourite anime website on your android devices.",
-    imgUrl: "https://picsum.photos/400/200",
+    imgUrl: "https://imgur.com/ouHYZBF.png",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
       {
@@ -21,7 +21,7 @@ export const ProjectList = [
     title: "Mars App",
     description:
       "A simple app that lets you browse latest images taken by various Mars rovers using NASA's API",
-    imgUrl: "https://picsum.photos/400/200",
+    imgUrl: "https://imgur.com/iuCePSP.png",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
       {
@@ -39,7 +39,7 @@ export const ProjectList = [
     title: "Covid Tracker",
     description:
       "A minimal designed app to track current statistics of COVID-19 across the world and detailed state wise statistics of India. App also offers some useful information regarding COVID-19, along with helpline numbers.",
-    imgUrl: "https://picsum.photos/400/200",
+    imgUrl: "https://imgur.com/VW2C8yo.png",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
       {
@@ -53,7 +53,7 @@ export const ProjectList = [
     title: "Erza Icon Pack",
     description:
       "Erza is a material design inspired icon pack for giving your android phone a fresh and unique look.",
-    imgUrl: "https://picsum.photos/400/200",
+    imgUrl: "https://imgur.com/1e0jFzn.png",
     techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
       {
@@ -67,7 +67,7 @@ export const ProjectList = [
     title: "Zeref Icon Pack",
     description:
       "Zeref is a vibrant and minimalist icon pack for those who are tired of the same old material design icon packs.",
-    imgUrl: "https://picsum.photos/400/200",
+    imgUrl: "https://imgur.com/e7HHRf7.png",
     techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
       {
