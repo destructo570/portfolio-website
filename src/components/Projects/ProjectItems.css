@@ -1,6 +1,5 @@
 .project-item {
   margin: 4rem 0;
-  filter: grayscale(1);
 }
 
 .project-title {
@@ -18,11 +17,6 @@
   cursor: pointer;
 }
 
-.project-item:hover {
-  filter: grayscale(0);
-  transition: filter 0.6s;
-}
-
 .project-description {
   margin-top: 0.25rem;
 }
@@ -33,6 +27,12 @@
   .project-item {
     display: flex;
     justify-content: space-between;
+    filter: grayscale(1);
+  }
+
+  .project-item:hover {
+    filter: grayscale(0);
+    transition: filter 0.6s;
   }
 
   .project-item:nth-child(odd) {
