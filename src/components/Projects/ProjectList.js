@@ -1,8 +1,9 @@
 export const ProjectList = [
   {
-    title: "Sushi Android App",
-    description:
-      "Sushi is an unofficial myanimelist client for android. Enjoy your favourite anime website on your android devices.",
+    title: "Sushi : Unofficial myanimelist app",
+    description: `Myanimelist website had a very poor design and no decent app for it. I decided to solve this problem by creating Sushi.
+    App was downloaded over 20K+ times with 10K+ daily active users and received very good ratings for overall design and functionality of the app.
+       `,
     imgUrl: "https://imgur.com/ouHYZBF.png",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
@@ -20,7 +21,7 @@ export const ProjectList = [
   {
     title: "Mars App",
     description:
-      "A simple app that lets you browse latest images taken by various Mars rovers using NASA's API",
+      "App uses NASA's API to show you the latest photos taken by all the mars rovers like curiosity, perseverance etc.",
     imgUrl: "https://imgur.com/iuCePSP.png",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
@@ -38,7 +39,7 @@ export const ProjectList = [
   {
     title: "Covid Tracker",
     description:
-      "A minimal designed app to track current statistics of COVID-19 across the world and detailed state wise statistics of India. App also offers some useful information regarding COVID-19, along with helpline numbers.",
+      "A minimally designed app to track current statistics of COVID-19 across the world and detailed state wise statistics of India. App also offers some useful information regarding COVID-19, along with helpline numbers.",
     imgUrl: "https://imgur.com/VW2C8yo.png",
     techStack: ["Andorid", "Kotlin", "MVVM", "UI/UX"],
     projectLinks: [
@@ -52,7 +53,7 @@ export const ProjectList = [
   {
     title: "Erza Icon Pack",
     description:
-      "Erza is a material design inspired icon pack for giving your android phone a fresh and unique look.",
+      "I was inspired by Google's material design and wanted to use all my design skills to create something unique. Erza is a material design inspired icon pack for giving your android phone a fresh and unique look.",
     imgUrl: "https://imgur.com/yX5AMdq.png",
     techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
@@ -66,7 +67,7 @@ export const ProjectList = [
   {
     title: "Zeref Icon Pack",
     description:
-      "Zeref is a vibrant and minimalist icon pack for those who are tired of the same old material design icon packs.",
+      "Another icon pack I had alot of fun working on, I wanted to create something funky and vibrant. Zeref is a vibrant and minimalist icon pack for those who are tired of the same old material design icon packs.",
     imgUrl: "https://imgur.com/5R68RJk.png",
     techStack: ["Illustrator", "Photoshop"],
     projectLinks: [
