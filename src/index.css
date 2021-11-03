@@ -112,13 +112,6 @@ code {
   width: 100%;
 }
 
-/* .btn:hover {
-  background-color: var(--accent-primary);
-  border: 1px solid var(--accent-primary);
-  transition: background-color 0.5s, border 0.5s;
-  cursor: pointer;
-} */
-
 /* Modifiers */
 
 .semi--bold {
