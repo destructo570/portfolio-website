@@ -1,16 +1,16 @@
 import { ProjectList } from "./ProjectList";
 import ProjectItems from "./ProjectItems";
-import ProjectsStyled from "./styles/ProjectsStyled";
-import TextHighlight from "../UI/styles/TextHighlight";
+import StyledDivider from "../Global/styledComponents/StyledDivider";
+import { StyledProjects } from "./styledComponents";
 function Projects() {
   return (
-    <ProjectsStyled id="projects">
+    <StyledProjects id="projects">
       <div>
         <h1>Projects</h1>
-        <TextHighlight />
+        <StyledDivider />
       </div>
       <ProjectItems projects={ProjectList} />
-    </ProjectsStyled>
+    </StyledProjects>
   );
 }
 

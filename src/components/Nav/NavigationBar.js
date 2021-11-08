@@ -1,10 +1,7 @@
 import { NavLinksList } from "./NavLinksList";
 import { useState } from "react";
 import NavIcon from "./NavIcon";
-import NavLinks from "./styles/NavLinks";
-import NavLogo from "./styles/NavLogo";
-import NavStyled from "./styles/NavStyled";
-
+import { StyledNavLinks, StyledNavLogo, StyledNav } from "./styledComponents";
 function NavigationBar() {
   const [clicked, setClicked] = useState(false);
 
@@ -19,11 +16,11 @@ function NavigationBar() {
   };
 
   return (
-    <NavStyled>
-      <NavLogo>
+    <StyledNav>
+      <StyledNavLogo>
         <i className="ri-checkbox-blank-circle-line logo"></i>
-      </NavLogo>
-      <NavLinks isClicked={clicked}>
+      </StyledNavLogo>
+      <StyledNavLinks isClicked={clicked}>
         <ul>
           {NavLinksList.map((item, index) => {
             return (
@@ -39,9 +36,9 @@ function NavigationBar() {
             );
           })}
         </ul>
-      </NavLinks>
+      </StyledNavLinks>
       <NavIcon onMenuClicked={menuClickHandler} />
-    </NavStyled>
+    </StyledNav>
   );
 }
 

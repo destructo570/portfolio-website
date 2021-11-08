@@ -1,5 +1,5 @@
 import { useState } from "react";
-import NavIconStyled from "./styles/NavIconStyled";
+import { StyledNavIcon } from "./styledComponents";
 
 function NavIcon(props) {
   const [menuCLicked, setMenuClicked] = useState(false);
@@ -10,11 +10,11 @@ function NavIcon(props) {
     props.onMenuClicked();
   };
   return (
-    <NavIconStyled id="nav__menu" onClick={menuClickHandler}>
+    <StyledNavIcon id="nav__menu" onClick={menuClickHandler}>
       <i
         className={menuCLicked ? "ri-close-line ri-xl " : "ri-menu-line ri-xl "}
       ></i>
-    </NavIconStyled>
+    </StyledNavIcon>
   );
 }
 

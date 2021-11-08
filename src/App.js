@@ -1,6 +1,6 @@
 import "./App.css";
 import { ThemeProvider } from "styled-components";
-import GlobalStyle from "./components/UI/styles/GlobalStyles";
+import GlobalStyle from "./components/Global/styledComponents/GlobalStyles";
 import { theme } from "./Theme/Theme";
 import NavigationBar from "./components/Nav/NavigationBar";
 import Hero from "./components/Hero/Hero";

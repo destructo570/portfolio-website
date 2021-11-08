@@ -1,8 +1,8 @@
-import ProjectLinksStyled from "./styles/ProjectLinksStyled";
+import { StyledProjectLinks } from "./styledComponents";
 
 function ProjectLinks(props) {
   return (
-    <ProjectLinksStyled>
+    <StyledProjectLinks>
       {props.links.map((item, index) => {
         return (
           <a key={index} href={item.url} target="_blank" rel="noreferrer">
@@ -10,7 +10,7 @@ function ProjectLinks(props) {
           </a>
         );
       })}
-    </ProjectLinksStyled>
+    </StyledProjectLinks>
   );
 }
 

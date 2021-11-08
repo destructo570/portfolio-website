@@ -1,7 +1,7 @@
-import SocialLinksStyled from "./styles/SocialLinksStyled";
+import { StyledSocialLinks } from "./styledComponents";
 function SocialLinks(props) {
   return (
-    <SocialLinksStyled>
+    <StyledSocialLinks>
       {props.links.map((item, index) => {
         return (
           <a key={index} href={item.url} target="_blank" rel="noreferrer">
@@ -9,7 +9,7 @@ function SocialLinks(props) {
           </a>
         );
       })}
-    </SocialLinksStyled>
+    </StyledSocialLinks>
   );
 }
 

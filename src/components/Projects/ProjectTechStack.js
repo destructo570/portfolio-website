@@ -1,12 +1,12 @@
-import ProjectTechStyled from "./styles/ProjectTechStyled";
+import { StyledTechStack } from "./styledComponents";
 
 function ProjectTechStack(props) {
   return (
-    <ProjectTechStyled className="project-tech">
+    <StyledTechStack className="project-tech">
       {props.techStack.map((item, index) => {
         return <p key={index}>{item}</p>;
       })}
-    </ProjectTechStyled>
+    </StyledTechStack>
   );
 }
 

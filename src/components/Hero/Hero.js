@@ -1,14 +1,14 @@
 import SocialLinks from "./SocialLinks";
-import Button from "../UI/styles/Button";
+import Button from "../Global/styledComponents/Button";
 import { SocialLinksList } from "./SocialLinksList";
-import { HeroStyled } from "./styles/HeroStyled";
+import { StyledHero } from "./styledComponents";
 
 function Hero() {
   const contactHandler = (event) => {
     window.open("mailto:dev.vishalkashi@gmail.com", "_blank", "resizable=yes");
   };
   return (
-    <HeroStyled id="home">
+    <StyledHero id="home">
       <div>
         <h3>Hi, my name is</h3>
         <h1>Vishal Kashi.</h1>
@@ -22,7 +22,7 @@ function Hero() {
         <SocialLinks links={SocialLinksList} />
         <Button onClick={contactHandler}>Contact</Button>
       </div>
-    </HeroStyled>
+    </StyledHero>
   );
 }
 
