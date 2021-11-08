@@ -1,32 +1,30 @@
-import "./Hero.css";
 import SocialLinks from "./SocialLinks";
+import Button from "../Styles/Button";
 import { SocialLinksList } from "./SocialLinksList";
+import { HeroStyled } from "./HeroStyled";
 
 function Hero() {
   const contactHandler = (event) => {
     window.open("mailto:dev.vishalkashi@gmail.com", "_blank", "resizable=yes");
   };
   return (
-    <section id="hero">
-      {/* <div className="hero__img">
-        <i className="ri-user-4-line ri-3x"></i>
-      </div> */}
-      <div className="hero__content">
-        <h1 className="hero-intro-title">Hi, my name is</h1>
-        <h1 className="hero-title-name">Vishal Kashi.</h1>
-        <h1 className="hero-title">I build things for the web and mobile.</h1>
+    <HeroStyled>
+      <div>
+        <h3>Hi, my name is</h3>
+        <h1>Vishal Kashi.</h1>
+        <h1>I build things for the web and mobile.</h1>
 
-        <p className="hero-body">
+        <p>
           I am a software engineer specializing in web and mobile apps with a
           focus on user-centered design and accessibility. <br />
           Currently learning web development and looking for new opportunities.
         </p>
         <SocialLinks links={SocialLinksList} />
-        <button className="hero-cta btn" onClick={contactHandler}>
+        <Button className="hero-cta" onClick={contactHandler}>
           Contact
-        </button>
+        </Button>
       </div>
-    </section>
+    </HeroStyled>
   );
 }
 

@@ -1,22 +1,15 @@
-import "./SocialLinks.css";
-
+import SocialLinksStyled from "./SocialLinksStyled";
 function SocialLinks(props) {
   return (
-    <div className="hero-socials">
+    <SocialLinksStyled>
       {props.links.map((item, index) => {
         return (
-          <a
-            key={index}
-            href={item.url}
-            target="_blank"
-            rel="noreferrer"
-            className="social-link color-transition"
-          >
+          <a key={index} href={item.url} target="_blank" rel="noreferrer">
             <i className={item.cName}></i>
           </a>
         );
       })}
-    </div>
+    </SocialLinksStyled>
   );
 }
 
