@@ -1,7 +1,7 @@
 import { ProjectList } from "./ProjectList";
 import ProjectItems from "./ProjectItems";
 import ProjectsStyled from "./styles/ProjectsStyled";
-import TextHighlight from "../UI/TextHighlight";
+import TextHighlight from "../UI/styles/TextHighlight";
 function Projects() {
   return (
     <ProjectsStyled id="projects">

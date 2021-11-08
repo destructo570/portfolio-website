@@ -1,7 +1,7 @@
 import SocialLinks from "./SocialLinks";
-import Button from "../UI/Button";
+import Button from "../UI/styles/Button";
 import { SocialLinksList } from "./SocialLinksList";
-import { HeroStyled } from "./HeroStyled";
+import { HeroStyled } from "./styles/HeroStyled";
 
 function Hero() {
   const contactHandler = (event) => {
@@ -20,9 +20,7 @@ function Hero() {
           Currently learning web development and looking for new opportunities.
         </p>
         <SocialLinks links={SocialLinksList} />
-        <Button className="hero-cta" onClick={contactHandler}>
-          Contact
-        </Button>
+        <Button onClick={contactHandler}>Contact</Button>
       </div>
     </HeroStyled>
   );

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SkillsListStyled = styled.div`
+const SkillsStyled = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 1rem 0;
@@ -11,4 +11,4 @@ const SkillsListStyled = styled.div`
   }
 `;
 
-export default SkillsListStyled;
+export default SkillsStyled;

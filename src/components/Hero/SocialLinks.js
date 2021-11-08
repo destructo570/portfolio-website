@@ -1,4 +1,4 @@
-import SocialLinksStyled from "./SocialLinksStyled";
+import SocialLinksStyled from "./styles/SocialLinksStyled";
 function SocialLinks(props) {
   return (
     <SocialLinksStyled>

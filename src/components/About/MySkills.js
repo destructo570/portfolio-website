@@ -1,10 +1,10 @@
-import SkillsListStyled from "./SkillsListStyled";
+import SkillsStyled from "./styles/SkillsStyled";
 
 function MySkills(props) {
   return (
     <div>
       <p>Some of my skills and tech I have experience with</p>
-      <SkillsListStyled>
+      <SkillsStyled>
         {props.skills.map((item, index) => {
           return (
             <div key={index}>
@@ -13,7 +13,7 @@ function MySkills(props) {
             </div>
           );
         })}
-      </SkillsListStyled>
+      </SkillsStyled>
     </div>
   );
 }

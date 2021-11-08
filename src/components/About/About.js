@@ -1,10 +1,10 @@
 import { SkillList } from "./SkillList";
 import MySkills from "./MySkills";
-import AboutStyled from "./AboutStyled";
-import AboutImage from "./AboutImage";
-import TextHighlight from "../UI/TextHighlight";
-import AboutContent from "./AboutContent";
-import AboutBody from "./AboutBody";
+import AboutStyled from "./styles/AboutStyled";
+import AboutImage from "./styles/AboutImage";
+import TextHighlight from "../UI/styles/TextHighlight";
+import AboutContent from "./styles/AboutContent";
+import AboutBody from "./styles/AboutBody";
 
 function About() {
   return (
