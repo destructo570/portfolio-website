@@ -1,5 +1,5 @@
 import SocialLinks from "./SocialLinks";
-import Button from "../Styles/Button";
+import Button from "../UI/Button";
 import { SocialLinksList } from "./SocialLinksList";
 import { HeroStyled } from "./HeroStyled";
 
