@@ -1,19 +1,23 @@
-import "./About.css";
 import { SkillList } from "./SkillList";
 import MySkills from "./MySkills";
+import AboutStyled from "./AboutStyled";
+import AboutImage from "./AboutImage";
+import TextHighlight from "../UI/TextHighlight";
+import AboutContent from "./AboutContent";
+import AboutBody from "./AboutBody";
 
 function About() {
   return (
-    <section id="about">
+    <AboutStyled>
       <div>
-        <h1 className="about__title semi--bold">About Me</h1>
-        <div className="sec-divider"></div>
+        <h1>About Me</h1>
+        <TextHighlight />
       </div>
-      <div className="about__content">
-        <div className="content-img">
+      <AboutContent>
+        <AboutImage>
           <img src="https://picsum.photos/300/300" alt=""></img>
-        </div>
-        <div className="content-body">
+        </AboutImage>
+        <AboutBody>
           <p>
             Hey there!, my name is Vishal and I like to build cool stuff for web
             and mobile with a focus on design and user experience. At first I
@@ -32,9 +36,9 @@ function About() {
           </p>
           <br />
           <MySkills skills={SkillList} />
-        </div>
-      </div>
-    </section>
+        </AboutBody>
+      </AboutContent>
+    </AboutStyled>
   );
 }
 

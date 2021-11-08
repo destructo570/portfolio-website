@@ -1,19 +1,19 @@
-import "./MySkills.css";
+import SkillsListStyled from "./SkillsListStyled";
 
 function MySkills(props) {
   return (
-    <div className="about-skills">
+    <div>
       <p>Some of my skills and tech I have experience with</p>
-      <div className="skills-list">
+      <SkillsListStyled>
         {props.skills.map((item, index) => {
           return (
-            <div key={index} className={item.cName}>
+            <div key={index}>
               <i className="ri-arrow-right-s-fill bullet-icon">&nbsp;&nbsp;</i>
               <p>{item.title}</p>
             </div>
           );
         })}
-      </div>
+      </SkillsListStyled>
     </div>
   );
 }
