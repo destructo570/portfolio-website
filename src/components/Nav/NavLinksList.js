@@ -1,7 +1,7 @@
 export const NavLinksList = [
   {
     title: "Home",
-    url: "#hero",
+    url: "#home",
     cName: "nav-links color-transition",
   },
   {

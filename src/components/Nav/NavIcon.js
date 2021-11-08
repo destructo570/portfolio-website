@@ -10,7 +10,7 @@ function NavIcon(props) {
     props.onMenuClicked();
   };
   return (
-    <NavIconStyled onClick={menuClickHandler}>
+    <NavIconStyled id="nav__menu" onClick={menuClickHandler}>
       <i
         className={menuCLicked ? "ri-close-line ri-xl " : "ri-menu-line ri-xl "}
       ></i>

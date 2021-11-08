@@ -8,7 +8,7 @@ import AboutBody from "./AboutBody";
 
 function About() {
   return (
-    <AboutStyled>
+    <AboutStyled id="about">
       <div>
         <h1>About Me</h1>
         <TextHighlight />

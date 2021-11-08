@@ -4,7 +4,7 @@ const NavIconStyled = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  s .nav__menu-ico:hover {
+  &:hover {
     cursor: pointer;
   }
 

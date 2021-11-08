@@ -8,7 +8,7 @@ function Hero() {
     window.open("mailto:dev.vishalkashi@gmail.com", "_blank", "resizable=yes");
   };
   return (
-    <HeroStyled>
+    <HeroStyled id="home">
       <div>
         <h3>Hi, my name is</h3>
         <h1>Vishal Kashi.</h1>

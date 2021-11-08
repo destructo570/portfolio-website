@@ -15,12 +15,12 @@ function NavigationBar() {
   };
 
   const navLinkHandler = () => {
-    document.querySelector(".nav__menu-ico").click();
+    document.querySelector("#nav__menu").click();
   };
 
   return (
-    <NavStyled className="nav">
-      <NavLogo className="nav__logo">
+    <NavStyled>
+      <NavLogo>
         <i className="ri-checkbox-blank-circle-line logo"></i>
       </NavLogo>
       <NavLinks isClicked={clicked}>
@@ -40,7 +40,7 @@ function NavigationBar() {
           })}
         </ul>
       </NavLinks>
-      <NavIcon className="nav__menu" onMenuClicked={menuClickHandler} />
+      <NavIcon onMenuClicked={menuClickHandler} />
     </NavStyled>
   );
 }
