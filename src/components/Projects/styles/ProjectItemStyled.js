@@ -19,11 +19,11 @@ const ProjectItemStyled = styled.div`
     }
 
     &:nth-child(odd) > div:last-child {
-      margin-left: 6rem;
+      margin-left: 2.5rem;
     }
 
     &:nth-child(even) > div:last-child {
-      margin-right: 6rem;
+      margin-right: 2.5rem;
     }
   }
 `;
