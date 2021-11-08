@@ -1,15 +1,16 @@
-import "./Projects.css";
 import { ProjectList } from "./ProjectList";
 import ProjectItems from "./ProjectItems";
+import ProjectsStyled from "./styles/ProjectsStyled";
+import TextHighlight from "../UI/TextHighlight";
 function Projects() {
   return (
-    <section id="projects">
+    <ProjectsStyled id="projects">
       <div>
-        <h1 className="projects__title semi--bold">Projects</h1>
-        <div className="sec-divider"></div>
+        <h1>Projects</h1>
+        <TextHighlight />
       </div>
       <ProjectItems projects={ProjectList} />
-    </section>
+    </ProjectsStyled>
   );
 }
 

@@ -1,22 +1,25 @@
-import "./ProjectItems.css";
 import ProjectTechStack from "./ProjectTechStack";
 import ProjectLinks from "./ProjectLinks";
+import ProjectItemStyled from "./styles/ProjectItemStyled";
+import ProjectImageStyled from "./styles/ProjectImageStyled";
+import ProjectContentStyled from "./styles/ProjectContentStyled";
+
 function ProjectItems(props) {
   return (
     <div>
       {props.projects.map((project, index) => {
         return (
-          <div key={index} className={project.cName}>
-            <div className="project-img">
+          <ProjectItemStyled key={index} isEven={project.id % 2 === 0 && true}>
+            <ProjectImageStyled>
               <img src={project.imgUrl} alt=""></img>
-            </div>
-            <div className="project-content">
-              <h2 className="project-title">{project.title}</h2>
-              <p className="project-description">{project.description}</p>
+            </ProjectImageStyled>
+            <ProjectContentStyled>
+              <h2>{project.title}</h2>
+              <p>{project.description}</p>
               <ProjectTechStack techStack={project.techStack} />
               <ProjectLinks links={project.projectLinks} />
-            </div>
-          </div>
+            </ProjectContentStyled>
+          </ProjectItemStyled>
         );
       })}
     </div>

@@ -1,22 +1,16 @@
-import "./ProjectLinks.css";
+import ProjectLinksStyled from "./styles/ProjectLinksStyled";
 
 function ProjectLinks(props) {
   return (
-    <div className="project-links">
+    <ProjectLinksStyled>
       {props.links.map((item, index) => {
         return (
-          <a
-            key={index}
-            href={item.url}
-            target="_blank"
-            rel="noreferrer"
-            className="project-links-item"
-          >
+          <a key={index} href={item.url} target="_blank" rel="noreferrer">
             <i className={item.iconClassName}></i>
           </a>
         );
       })}
-    </div>
+    </ProjectLinksStyled>
   );
 }
 

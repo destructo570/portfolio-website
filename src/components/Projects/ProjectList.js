@@ -1,5 +1,6 @@
 export const ProjectList = [
   {
+    id: 1,
     title: "Sushi : Unofficial myanimelist app",
     description: `Myanimelist website had a very poor design and no decent app for it. I decided to solve this problem by creating Sushi.
     App was downloaded over 20K+ times with 10K+ daily active users and received very good ratings for overall design and functionality of the app.
@@ -19,6 +20,7 @@ export const ProjectList = [
     cName: "project-item",
   },
   {
+    id: 2,
     title: "Mars App",
     description:
       "App uses NASA's API to show you the latest photos taken by all the mars rovers like curiosity, perseverance etc.",
@@ -37,6 +39,7 @@ export const ProjectList = [
     cName: "project-item",
   },
   {
+    id: 3,
     title: "Covid Tracker",
     description:
       "A minimally designed app to track current statistics of COVID-19 across the world and detailed state wise statistics of India. App also offers some useful information regarding COVID-19, along with helpline numbers.",
@@ -51,6 +54,7 @@ export const ProjectList = [
     cName: "project-item",
   },
   {
+    id: 4,
     title: "Erza Icon Pack",
     description:
       "I was inspired by Google's material design and wanted to use all my design skills to create something unique. Erza is a material design inspired icon pack for giving your android phone a fresh and unique look.",
@@ -65,6 +69,7 @@ export const ProjectList = [
     cName: "project-item",
   },
   {
+    id: 5,
     title: "Zeref Icon Pack",
     description:
       "Another icon pack I had alot of fun working on, I wanted to create something funky and vibrant. Zeref is a vibrant and minimalist icon pack for those who are tired of the same old material design icon packs.",
