@@ -1,7 +1,6 @@
 import React from "react";
 import { StyledProfileLinks } from "./styledComponents";
-
-type ProfileLink = { title: string; url: string; imgUrl: string };
+import ProfileLink from "../../models/ProfileLink";
 
 const ProfileLinks: React.FC<{ links: ProfileLink[] }> = (props) => {
   const linkContent = props.links.map((link) => {
