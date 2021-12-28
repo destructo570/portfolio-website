@@ -10,6 +10,11 @@ export const darkTheme = {
     secondaryAccent: "rgba(48, 250, 223, 0.233)",
     secondaryAccentLight: "rgba(147, 245, 232, 0.568)",
   },
+  layout: {
+    small: {
+      pagePadding: "2em",
+    },
+  },
 };
 
 export const lightTheme = {
@@ -21,6 +26,11 @@ export const lightTheme = {
     primaryAccentLight: "#31b37a",
     secondaryAccent: "rgba(48, 250, 223, 0.233)",
     secondaryAccentLight: "rgba(147, 245, 232, 0.568)",
+  },
+  layout: {
+    small: {
+      pagePadding: "2em",
+    },
   },
 };
 
@@ -37,12 +47,14 @@ const GlobalStyles = createGlobalStyle`
 }
 
 body{
-background-color: ${({ theme }) => theme.color.body};
-color: ${({ theme }) => theme.color.primaryText};
-transition: all 0.30s linear;
-font-family: "Poppins", san-serif;
-}
+  padding-left: ${({ theme }) => theme.layout.small.pagePadding};
+  padding-right: ${({ theme }) => theme.layout.small.pagePadding};
+  background-color: ${({ theme }) => theme.color.body};
+  color: ${({ theme }) => theme.color.primaryText};
+  transition: all 0.30s linear;
+  font-family: "Poppins", san-serif;
 
+}
 
 /* Change text selection colors */
 ::-moz-selection {
