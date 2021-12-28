@@ -9,7 +9,8 @@ const StyledSectionTitle = styled.div`
 `;
 const StyledDivider = styled.div`
   width: 50px;
-  height: 8px;
+  height: 6px;
+  margin-top: 0.2em;
   background-color: ${({ theme }) => theme.color.primaryAccent};
 `;
 
