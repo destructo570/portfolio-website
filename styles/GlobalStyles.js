@@ -12,6 +12,15 @@ export const darkTheme = {
   },
   layout: {
     small: {
+      media: "",
+      pagePadding: "2em",
+    },
+    medium: {
+      media: "768px",
+      pagePadding: "2em",
+    },
+    large: {
+      media: "1200px",
       pagePadding: "2em",
     },
   },
@@ -29,6 +38,15 @@ export const lightTheme = {
   },
   layout: {
     small: {
+      media: "",
+      pagePadding: "2em",
+    },
+    medium: {
+      media: "768px",
+      pagePadding: "2em",
+    },
+    large: {
+      media: "1200px",
       pagePadding: "2em",
     },
   },
