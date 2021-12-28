@@ -74,6 +74,10 @@ body{
 
 }
 
+section{
+  padding: 2em 0;
+}
+
 /* Change text selection colors */
 ::-moz-selection {
   /* Code for Firefox */
