@@ -5,6 +5,7 @@ export const darkTheme = {
     body: "rgb(0,0,0)",
     primaryText: "#ffffff",
     secondaryText: "rgba(206, 206, 206, 0.719)",
+    tertiaryText: "rgb(206, 206, 206)",
     primaryAccent: "#2fdd92",
     primaryAccentLight: "#31b37a",
     secondaryAccent: "rgba(48, 250, 223, 0.233)",
@@ -32,6 +33,7 @@ export const lightTheme = {
     body: "rgb(0,0,0)",
     primaryText: "#ffffff",
     secondaryText: "rgba(206, 206, 206, 0.719)",
+    tertiaryText: "rgba(206, 206, 206, 0.719)",
     primaryAccent: "#2fdd92",
     primaryAccentLight: "#31b37a",
     secondaryAccent: "rgba(48, 250, 223, 0.233)",
@@ -75,6 +77,10 @@ body{
   transition: all 0.30s linear;
   font-family: "Poppins", san-serif;
 
+}
+
+p{
+  color: ${({ theme }) => theme.color.tertiaryText};
 }
 
 section{
