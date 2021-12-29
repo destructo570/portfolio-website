@@ -1,6 +1,7 @@
 import NavLinksList from "../../data/NavLinksList";
 import { StyledNavLinks } from "./styledComponents";
-const NavLinks = () => {
+
+const NavLinks: React.FC<{ isClicked: boolean }> = (props) => {
   const navLinksContent = NavLinksList.map((link, index) => {
     const navLinkHandler = () => {};
     return (
@@ -11,7 +12,11 @@ const NavLinks = () => {
       </li>
     );
   });
-  return <StyledNavLinks>{navLinksContent}</StyledNavLinks>;
+  return (
+    <StyledNavLinks isClicked={props.isClicked}>
+      {navLinksContent}
+    </StyledNavLinks>
+  );
 };
 
 export default NavLinks;

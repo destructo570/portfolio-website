@@ -9,7 +9,7 @@ const Navigation = () => {
   const menuHandler = () => {
     setClicked((prevState) => {
       const newState = !prevState;
-      return !newState;
+      return newState;
     });
   };
 
@@ -19,7 +19,7 @@ const Navigation = () => {
         src="https://raw.githubusercontent.com/destructo570/portfolio-website-v1/with-typescript/assets/icons/logo.svg"
         alt="logo"
       />
-      <NavLinks />
+      <NavLinks isClicked={clicked} />
       <NavMenuIcon onMenuClicked={menuHandler} />
     </StyledNavigation>
   );

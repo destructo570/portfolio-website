@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import menuIcon from "../../assets/icons/menu.svg";
-import closeIcon from "../../assets/icons/menu.svg";
+import closeIcon from "../../assets/icons/close.svg";
 import { StyledNavMenuIcon } from "./styledComponents";
 
 const NavMenuIcon: React.FC<{ onMenuClicked: () => void }> = (props) => {
