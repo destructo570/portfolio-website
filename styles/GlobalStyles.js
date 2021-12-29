@@ -11,6 +11,7 @@ export const darkTheme = {
     secondaryAccentLight: "rgba(147, 245, 232, 0.568)",
   },
   layout: {
+    maxWidth: "1250px",
     small: {
       media: "",
       pagePadding: "2em",
@@ -37,6 +38,7 @@ export const lightTheme = {
     secondaryAccentLight: "rgba(147, 245, 232, 0.568)",
   },
   layout: {
+    maxWidth: "1250px",
     small: {
       media: "",
       pagePadding: "2em",
@@ -66,6 +68,8 @@ const GlobalStyles = createGlobalStyle`
 body{
   padding-left: ${({ theme }) => theme.layout.small.pagePadding};
   padding-right: ${({ theme }) => theme.layout.small.pagePadding};
+  max-width:  ${({ theme }) => theme.layout.maxWidth};
+  margin: 0 auto;
   background-color: ${({ theme }) => theme.color.body};
   color: ${({ theme }) => theme.color.primaryText};
   transition: all 0.30s linear;
