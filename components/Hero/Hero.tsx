@@ -1,8 +1,15 @@
 import ProfileLinks from "./ProfileLinks";
 import { StyledHero } from "./styledComponents";
 import ProfileLinksList from "../../data/ProfileLinksList";
+import Button from "../Global/Button";
+import { useRouter } from "next/router";
 
 const Hero = () => {
+  const router = useRouter();
+
+  const ctaHandler = () => {
+    router.push("mailto:dev.vishalkashi@gmail.com");
+  };
   return (
     <StyledHero>
       <h3>Hi, my name is</h3>
@@ -14,7 +21,7 @@ const Hero = () => {
         Currently learning web development and looking for new opportunities.
       </p>
       <ProfileLinks links={ProfileLinksList} />
-      {/* <Button onClick={contactHandler}>Contact</Button> */}
+      <Button onClick={ctaHandler} title="Let's Talk" />
     </StyledHero>
   );
 };
