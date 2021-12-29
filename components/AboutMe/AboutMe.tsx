@@ -19,7 +19,7 @@ const AboutMe = () => {
     );
   });
   return (
-    <StyledAboutMe>
+    <StyledAboutMe id="about">
       <SectionTitle title="About Me" />
       <StyledAboutContent>
         <img src="https://picsum.photos/400/400" alt="vishal kashi" />

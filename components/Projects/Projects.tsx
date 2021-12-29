@@ -4,7 +4,7 @@ import { StyledProjects } from "./styledComponents";
 
 const Projects = () => {
   return (
-    <StyledProjects>
+    <StyledProjects id="projects">
       <SectionTitle title="Projects" />
       <ProjectList />
     </StyledProjects>

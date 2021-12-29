@@ -11,7 +11,7 @@ const Hero = () => {
     router.push("mailto:dev.vishalkashi@gmail.com");
   };
   return (
-    <StyledHero>
+    <StyledHero id="home">
       <h3>Hi, my name is</h3>
       <h1>Vishal Kashi.</h1>
       <h1>I build things for the web and mobile.</h1>
