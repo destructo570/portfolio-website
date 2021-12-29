@@ -54,7 +54,6 @@ export const lightTheme = {
 
 const GlobalStyles = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
 *{
