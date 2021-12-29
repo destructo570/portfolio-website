@@ -19,8 +19,8 @@ const Navigation = () => {
         src="https://raw.githubusercontent.com/destructo570/portfolio-website-v1/with-typescript/assets/icons/logo.svg"
         alt="logo"
       />
-      <NavLinks isClicked={clicked} />
-      <NavMenuIcon onMenuClicked={menuHandler} />
+      <NavLinks onMenuClicked={menuHandler} isClicked={clicked} />
+      <NavMenuIcon onMenuClicked={menuHandler} isClicked={clicked} />
     </StyledNavigation>
   );
 };

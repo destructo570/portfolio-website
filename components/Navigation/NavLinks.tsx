@@ -1,14 +1,17 @@
 import NavLinksList from "../../data/NavLinksList";
 import { StyledNavLinks } from "./styledComponents";
 
-const NavLinks: React.FC<{ isClicked: boolean }> = (props) => {
+const NavLinks: React.FC<{
+  isClicked: boolean;
+  onMenuClicked: () => void;
+}> = (props) => {
   const navLinksContent = NavLinksList.map((link, index) => {
-    const navLinkHandler = () => {};
+    const navLinkHandler = () => {
+      props.onMenuClicked();
+    };
     return (
-      <li key={index}>
-        <a href={link.url} onClick={navLinkHandler}>
-          {link.title}
-        </a>
+      <li key={index} onClick={navLinkHandler}>
+        <a href={link.url}>{link.title}</a>
       </li>
     );
   });
