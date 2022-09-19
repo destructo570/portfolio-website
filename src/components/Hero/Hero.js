@@ -15,9 +15,10 @@ function Hero() {
         <h1>I build things for the web and mobile.</h1>
 
         <p>
-          I am a software engineer specializing in web and mobile apps with a
-          focus on user-centered design and accessibility. <br />
-          Currently learning web development and looking for new opportunities.
+          I am a software engineer specializing in full stack web development
+          using MERN stack. Also love to create mobile applications.
+          <br />
+          Currently open to new opportunities.
         </p>
         <SocialLinks links={SocialLinksList} />
         <Button onClick={contactHandler}>Contact</Button>

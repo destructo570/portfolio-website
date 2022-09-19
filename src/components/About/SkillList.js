@@ -1,10 +1,23 @@
 export const SkillList = [
   {
-    title: "JavaScript",
+    title: "React JS",
     cName: "skill",
   },
   {
-    title: "React JS",
+    title: "NextJs",
+    cName: "skill",
+  },
+
+  {
+    title: "NodeJs",
+    cName: "skill",
+  },
+  {
+    title: "Express",
+    cName: "skill",
+  },
+  {
+    title: "JavaScript",
     cName: "skill",
   },
   {
@@ -16,10 +29,6 @@ export const SkillList = [
     cName: "skill",
   },
   {
-    title: "Android",
-    cName: "skill",
-  },
-  {
     title: "Java",
     cName: "skill",
   },
@@ -28,15 +37,7 @@ export const SkillList = [
     cName: "skill",
   },
   {
-    title: "C/C++",
-    cName: "skill",
-  },
-  {
     title: "UI/UX",
-    cName: "skill",
-  },
-  {
-    title: "Illustration",
     cName: "skill",
   },
 ];
