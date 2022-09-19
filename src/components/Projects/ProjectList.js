@@ -6,7 +6,7 @@ export const ProjectList = [
     Create, Update and Delete boards, cards and lists to manage your projects. Backend REST Api created with Node and Express
     with JWT authentication, server side validation and error handling.
     `,
-    imgUrl: "https://imgur.com/z5GvyXL.png",
+    imgUrl: "https://imgur.com/QFmwBLz.png",
     techStack: [
       "React",
       "Redux",
@@ -33,7 +33,7 @@ export const ProjectList = [
     id: 2,
     title: "Deplace Maison Ecommerce Webapp ",
     description: `A full stack clone of deplace maison ecoomerce website using Next JS with stripe payment integration and firebase for storing orders.`,
-    imgUrl: "https://imgur.com/snvQ2FA.png",
+    imgUrl: "https://imgur.com/e0szp1e.png",
     techStack: [
       "NextJs",
       "Context Api",
@@ -60,7 +60,7 @@ export const ProjectList = [
     title: "React Countries App",
     description: `See useful information related to all countries like currency, native names, border countries etc.
     We are using REST Countries API for getting data related to a country.`,
-    imgUrl: "https://imgur.com/mLTg655.png",
+    imgUrl: "https://imgur.com/a4eNbuP.png",
     techStack: [
       "ReactJS",
       "React router",
