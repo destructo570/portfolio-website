@@ -1,10 +1,10 @@
 export const SkillList = [
   {
-    title: "React JS",
+    title: "React Js",
     cName: "skill",
   },
   {
-    title: "NextJs",
+    title: "Next Js",
     cName: "skill",
   },
 

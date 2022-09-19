@@ -30,7 +30,7 @@ function About() {
             <br />
             Apart from that I also have knowledge about UI/UX design and
             experience working with various design software like Adobe XD,
-            Photoshop, Illustrator etc.
+            Photoshop, Illustrator, Figma etc.
             <br />
             <br />
           </p>
