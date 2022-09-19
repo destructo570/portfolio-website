@@ -18,7 +18,7 @@ function About() {
       </div>
       <StyledContent>
         <StyledImage>
-          <img src="https://picsum.photos/300/300" alt=""></img>
+          <img src="https://imgur.com/sE8BYZ1.png" alt="profile"></img>
         </StyledImage>
         <StyledBody>
           <p>
@@ -33,9 +33,6 @@ function About() {
             Photoshop, Illustrator etc.
             <br />
             <br />
-            Currently my main focus is on learning frontend web development.
-            Using React, HTML, CSS and Javascript to create high quality, user
-            centered and more accessible products on the web.
           </p>
           <br />
           <MySkills skills={SkillList} />

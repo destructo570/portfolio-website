@@ -4,7 +4,14 @@
 /node_modules
 /.pnp
 .pnp.js
+<<<<<<< HEAD
 .next
+||||||| de77c0d
+
+=======
+.next
+
+>>>>>>> no-typescript
 # testing
 /coverage
 
